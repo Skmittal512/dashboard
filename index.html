@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.all.min.css">
+</head>
+
+<body>
+    <!--  -->
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex pt-3">
+                <button class="toggle-btn" type="button">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <div class="sidebar-logo">
+                    <img src="/assets/images/logo.png" alt="" class="logo">
+                    <img src="/assets/images/logo-text.png" alt="" class="brand-logo">
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth1" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-grip"></i>
+                        <span>Dashbaord</span>
+                    </a>
+                    <ul id="auth1" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashbaord Light</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard Dark</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 2</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 3</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 4</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 5</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth2" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <span>Trading</span>
+                    </a>
+                    <ul id="auth2" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Market</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">ICO Listing</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">P2P</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Future</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Intraday Trading</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth3" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-brands fa-bitcoin"></i>
+                        <span>Crypto</span>
+                    </a>
+                    <ul id="auth3" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Market Watch</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">ICO Listing Filter</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Coin Details</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Exchange</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Banking</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth4" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-file-invoice"></i>
+                        <span>Reports</span>
+                    </a>
+                    <ul id="auth4" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">History</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Orders</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Report</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">User</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Contacts</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Activity</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth5" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-brands fa-intercom"></i>
+                        <span>Apps</span>
+                    </a>
+                    <ul id="auth5" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Profile</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Edit Profile</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Post Details</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Email</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Calender</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Shop</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth6" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span>Charts</span>
+                    </a>
+                    <ul id="auth6" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Flot</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Morris</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Chartjs</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Chartist</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Sparkline</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Peity</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth7" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Bootstrap</span>
+                    </a>
+                    <ul id="auth7" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Accoridion</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Alert</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Badge</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Button</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Modal</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Button Group</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">List Group</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Cards</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Carousel</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dropdown</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Popover</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Progressbar</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Tab</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Typography</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Pagination</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Grid</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth8" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                        <span>Plugins</span>
+                    </a>
+                    <ul id="auth8" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Select 2</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Nestable</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Noui Slider</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 3</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 4</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard 5</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth9" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Widgets</span>
+                    </a>
+                    <ul id="auth9" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashbaord Light</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard Dark</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth10" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Forms</span>
+                    </a>
+                    <ul id="auth10" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashbaord Light</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard Dark</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth11" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-table"></i>
+                        <span>Table</span>
+                    </a>
+                    <ul id="auth11" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashbaord Light</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard Dark</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#auth12" aria-expanded="false" aria-controls="auth">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <span>Pages</span>
+                    </a>
+                    <ul id="auth12" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashbaord Light</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">Dashboard Dark</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <div class="main">
+            <!-- nav start -->
+            <nav class="navbar" id="nav">
+                <div class="container custom-container">
+                    <a class="navbar-brand">Dashboard</a>
+                    <div class="search-container">
+                        <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="search-box" placeholder="Search here...">
+                    </div>
+                      
+                </div>
+            </nav>
+            <!-- nav end -->
+
+            <!-- content starts -->
+            <div class="content-body mb-0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card bubles">
+                                        <div class="card-body d-flex position-relative">
+                                            <div>
+                                                <h2>Buy & Sell 100+ coins instantly</h2>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been.</p>
+                                                <a href="#" class="btn">Buy Coin</a>
+                                            </div>
+                                            <div class="coin-img">
+                                                <img src="/assets/images/coin.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="row gx-5">
+                                        <div class="col-lg-3">
+                                            <div class="card card-widget position-relative">
+                                                <div class="card-body position-relative">
+                                                    <div class="card-info">
+                                                        <h4 class="count-num">$2,478.90</h4>
+                                                        <p>Total Balance</p>
+                                                        <div>
+                                                            <svg class="me-1" width="20" height="20" viewBox="0 0 20 20"
+                                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M19.6997 12.4191C18.364 17.7763 12.9382 21.0365 7.58042 19.7006C2.22486 18.365 -1.03543 12.9388 0.300792 7.582C1.63577 2.22424 7.06166 -1.03636 12.4179 0.299241C17.7753 1.63487 21.0353 7.06169 19.6997 12.4191Z"
+                                                                    fill="#F7931A"></path>
+                                                                <path
+                                                                    d="M6.71062 11.684C6.65625 11.8191 6.51844 12.0215 6.20781 11.9447C6.21877 11.9606 5.41033 11.7456 5.41033 11.7456L4.86566 13.0015L6.29343 13.3575C6.55906 13.424 6.81938 13.4937 7.07563 13.5594L6.62155 15.3825L7.71748 15.6559L8.16716 13.8522C8.46655 13.9334 8.75716 14.0084 9.04153 14.079L8.5934 15.8743L9.6906 16.1477L10.1446 14.3281C12.0156 14.6821 13.4224 14.5393 14.0146 12.8472C14.4918 11.4847 13.9909 10.6987 13.0065 10.1862C13.7234 10.0209 14.2633 9.54937 14.4074 8.57532C14.6065 7.24471 13.5933 6.5294 12.208 6.05221L12.6574 4.24971L11.5602 3.97627L11.1227 5.73126C10.8343 5.65938 10.538 5.59157 10.2437 5.52437L10.6843 3.75781L9.58775 3.48438L9.13807 5.28623C8.89931 5.23186 8.66496 5.17808 8.43745 5.12154L8.43869 5.1159L6.92557 4.7381L6.63368 5.90996C6.63368 5.90996 7.44775 6.09653 7.43056 6.10808C7.87494 6.21902 7.95524 6.51307 7.94182 6.74622L6.71062 11.684ZM11.9006 12.0906C11.5615 13.4531 9.26747 12.7165 8.52372 12.5318L9.12622 10.1166C9.86995 10.3022 12.2549 10.6697 11.9006 12.0906ZM12.2399 8.55564C11.9306 9.79501 10.0212 9.16533 9.40183 9.01096L9.94808 6.82033C10.5674 6.97471 12.5621 7.26283 12.2399 8.55564Z"
+                                                                    fill="white"></path>
+                                                            </svg>
+                                                            <span>0.11857418</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chart position-relative pt-3">
+                                                        <img src="/assets/images/graph.png" alt="" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="back-icon position-absolute">
+                                                    <svg width="64" height="127" viewBox="0 0 64 127" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g opacity="0.05">
+                                                            <path
+                                                                d="M70.1991 32.0409C63.3711 28.2675 56.1119 25.3926 48.9246 22.4098C44.7559 20.6849 40.7669 18.6724 37.2451 15.8694C30.3093 10.3351 31.639 1.3509 39.7607 -2.20684C42.0606 -3.21307 44.4684 -3.5365 46.9121 -3.68024C56.3275 -4.18336 65.2758 -2.4584 73.7928 1.63839C78.0333 3.68679 79.4349 3.03993 80.8723 -1.38029C82.3817 -6.05207 83.6395 -10.7957 85.041 -15.5034C85.9753 -18.6659 84.8254 -20.7502 81.8426 -22.0799C76.3802 -24.4876 70.7741 -26.2126 64.8805 -27.1469C57.19 -28.3329 57.19 -28.3688 57.1541 -36.0952C57.1181 -46.984 57.1181 -46.984 46.1934 -46.984C44.6122 -46.984 43.0309 -47.02 41.4497 -46.984C36.3467 -46.8403 35.4842 -45.9419 35.3405 -40.8029C35.2686 -38.503 35.3405 -36.203 35.3045 -33.8671C35.2686 -27.0391 35.2327 -27.1469 28.6922 -24.7751C12.88 -19.0252 3.1052 -8.24421 2.06304 9.00543C1.12868 24.2785 9.10664 34.5924 21.6486 42.1032C29.375 46.739 37.9279 49.4702 46.1215 53.0998C49.3199 54.5014 52.3745 56.1185 55.0338 58.3466C62.904 64.8512 61.4665 75.6681 52.1229 79.7649C47.1277 81.957 41.845 82.4961 36.4186 81.8133C28.0453 80.7711 20.0314 78.579 12.4847 74.6619C8.06447 72.3619 6.77075 72.9729 5.2614 77.7524C3.96768 81.8852 2.81771 86.0538 1.66773 90.2225C0.122451 95.8286 0.697435 97.1583 6.05201 99.7817C12.88 103.088 20.1752 104.777 27.6141 105.963C33.4358 106.897 33.6155 107.149 33.6874 113.186C33.7233 115.917 33.7233 118.684 33.7593 121.416C33.7952 124.866 35.4483 126.878 39.006 126.95C43.0309 127.022 47.0918 127.022 51.1167 126.914C54.4229 126.842 56.1119 125.045 56.1119 121.703C56.1119 117.966 56.2916 114.192 56.1478 110.455C55.9682 106.646 57.6213 104.705 61.2868 103.699C69.7319 101.399 76.9193 96.8708 82.4535 90.1147C97.8345 71.4276 91.9768 44.0797 70.1991 32.0409Z"
+                                                                fill="#9568FF"></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card card-widget position-relative">
+                                                <div class="card-body position-relative">
+                                                    <div class="card-info">
+                                                        <h4 class="count-num">$3,27.23</h4>
+                                                        <p>Profit & Loss</p>
+                                                        <div>
+                                                            <span class="text-success">+3.02%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="chart position-relative pt-3">
+                                                        <img src="/assets/images/graph2.png" alt="" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="back-icon position-absolute">
+                                                    <svg width="157" height="114" viewBox="0 0 157 114" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g opacity="0.05">
+                                                            <path
+                                                                d="M12.1584 84.1906V110.157C12.1584 111.737 13.5953 113.053 15.4007 113.053H37.8751C39.6436 113.053 41.1173 111.77 41.1173 110.157V64.4771L24.7957 79.0565C21.3324 82.1172 16.9112 83.8944 12.1584 84.1906Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M52.3177 64.1484V110.158C52.3177 111.737 53.7546 113.054 55.56 113.054H78.0344C79.8029 113.054 81.2766 111.77 81.2766 110.158V83.0721C76.1554 82.9734 71.3657 81.1633 67.7551 77.938L52.3177 64.1484Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M92.4769 80.2078V110.157C92.4769 111.736 93.9138 113.053 95.7191 113.053H118.194C119.962 113.053 121.436 111.769 121.436 110.157V54.8994L95.6823 77.904C94.6875 78.7926 93.6191 79.5496 92.4769 80.2078Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M159.421 20.9355L132.636 44.8617V110.157C132.636 111.736 134.073 113.053 135.878 113.053H158.353C160.121 113.053 161.595 111.769 161.595 110.157V22.7456C160.858 22.1862 160.306 21.6925 159.9 21.3634L159.421 20.9355Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M177.806 -21.4532C176.737 -22.4734 175.116 -23 173.053 -23C172.869 -23 172.648 -23 172.464 -23C162 -22.5722 151.573 -22.1114 141.11 -21.6836C139.71 -21.6177 137.794 -21.5519 136.283 -20.2026C135.804 -19.7747 135.436 -19.2811 135.141 -18.6887C133.594 -15.6938 135.768 -13.7521 136.799 -12.8306L139.415 -10.461C141.22 -8.81546 143.063 -7.16992 144.905 -5.55729L81.6816 50.9505L53.2754 25.5763C51.5806 24.0624 49.2964 23.2067 46.8647 23.2067C44.433 23.2067 42.1856 24.0624 40.4908 25.5763L2.65272 59.3427C-0.88424 62.5022 -0.88424 67.6033 2.65272 70.7628L4.34751 72.2767C6.0423 73.7906 8.32659 74.6462 10.7582 74.6462C13.1899 74.6462 15.4374 73.7906 17.1321 72.2767L46.8647 45.7177L75.2709 71.0919C76.9657 72.6058 79.25 73.4615 81.6816 73.4615C84.1133 73.4615 86.3607 72.6058 88.0924 71.0919L159.421 7.37663L167.49 14.5512C168.448 15.4069 169.774 16.5916 171.8 16.5916C172.648 16.5916 173.495 16.3942 174.379 15.9663C174.969 15.6702 175.485 15.341 175.927 14.9461C177.511 13.5309 177.806 11.7209 177.88 10.3057C178.174 4.25011 178.506 -1.80547 178.837 -7.89396L179.316 -17.0102C179.427 -18.9191 178.948 -20.4001 177.806 -21.4532Z"
+                                                                fill="#9568FF"></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card card-widget position-relative">
+                                                <div class="card-body position-relative">
+                                                    <div class="card-info">
+                                                        <h4 class="count-num">$2,478.90</h4>
+                                                        <p>Total Deposit</p>
+
+                                                    </div>
+                                                    <div class="chart position-relative pt-6">
+                                                        <img src="/assets/images/graph3.png" alt="" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="back-icon position-absolute">
+                                                    <svg width="138" height="113" viewBox="0 0 138 113" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g opacity="0.05">
+                                                            <path
+                                                                d="M119.285 -15.4771H113.59V4.77299H133.524V-1.23874C133.524 -9.08974 127.136 -15.4771 119.285 -15.4771Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M99.3521 -49.0015H42.3988C39.7777 -49.0015 37.6527 -46.8765 37.6527 -44.2554V4.77188H104.098V-44.2554C104.098 -46.8765 101.973 -49.0015 99.3521 -49.0015Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M28.1602 -15.4771H14.8711C10.898 -15.4771 7.16314 -13.9305 4.35502 -11.122C1.5466 -8.31391 0 -4.57905 0 -0.605927V4.77299H28.1602V-15.4771Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M108.211 59.8423C108.211 66.8647 113.998 75.3463 121.183 75.3463H157.254C159.875 75.3463 162 73.2213 162 70.6002V49.0845C162 46.4634 159.875 44.3384 157.254 44.3384H121.183C113.998 44.3384 108.211 52.82 108.211 59.8423ZM128.777 59.8414C128.777 62.4628 126.652 64.5875 124.031 64.5875C121.41 64.5875 119.285 62.4628 119.285 59.8414C119.285 57.2203 121.41 55.0953 124.031 55.0953C126.652 55.0953 128.777 57.2203 128.777 59.8414Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M105.012 76.6807C101.013 71.8922 98.719 65.7555 98.719 59.8437C98.719 53.932 101.013 47.7953 105.012 43.0068C109.406 37.7452 115.15 34.8476 121.184 34.8476H153.774V20.6093C153.774 19.8236 153.719 19.0516 153.615 18.2966C153.293 15.9761 151.277 14.2656 148.935 14.2656H0V96.7621C0 105.716 6.38731 113 14.2383 113H139.535C147.386 113 153.774 105.716 153.774 96.7621V84.8399H121.184C115.15 84.8399 109.406 81.9422 105.012 76.6807Z"
+                                                                fill="#9568FF"></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card card-widget position-relative">
+                                                <div class="card-body position-relative">
+                                                    <div class="card-info">
+                                                        <h4 class="count-num">$52,478.90</h4>
+                                                        <p>Rewards Earned</p>
+                                                        <div>
+                                                            <span class="text-p">+200 This Month</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-baseline py-2">
+                                                            <h2 class="me-2">25%</h2>
+                                                            <span>Level 2</span>
+                                                        </div>
+                                                        <div class="progress-box">
+                                                            <div class="progress">
+                                                                <div class="progress-bar"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="back-icon position-absolute">
+                                                    <svg width="115" height="123" viewBox="0 0 115 123" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g opacity="0.05">
+                                                            <path
+                                                                d="M15.3627 66.1299L0.487194 95.8762C-0.228022 97.3054 -0.151221 99.0034 0.687599 100.362C1.52882 101.719 3.00965 102.546 4.60689 102.546H26.9838L40.4097 120.447C41.2821 121.614 42.6514 122.29 44.0926 122.29C46.0066 122.29 47.5151 121.148 48.2159 119.744L62.2334 91.7073C43.2814 89.8952 26.5722 80.2854 15.3627 66.1299Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M137.06 95.8762L122.184 66.1299C110.975 80.2854 94.2658 89.8952 75.3137 91.7073L89.3324 119.744C90.0321 121.148 91.5405 122.29 93.4545 122.29C94.8958 122.29 96.2662 121.614 97.1386 120.447L110.563 102.546H132.94C134.537 102.546 136.018 101.719 136.86 100.362C137.698 99.0034 137.775 97.3054 137.06 95.8762Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M76.4862 10.3573L68.7736 -1.96338L61.0634 10.3573C60.431 11.3677 59.4314 12.0937 58.2758 12.383L44.1766 15.9098L53.5105 27.0509C54.2761 27.9641 54.6577 29.1389 54.5749 30.3282L53.5705 44.8269L67.0504 39.3932C67.6912 39.1352 69.0016 38.7908 70.4956 39.3932L83.9768 44.8269L82.9735 30.3282C82.8919 29.1389 83.2735 27.9641 84.0392 27.0509L93.373 15.9098L79.2738 12.383C78.1182 12.0937 77.1186 11.3677 76.4862 10.3573Z"
+                                                                fill="#9568FF"></path>
+                                                            <path
+                                                                d="M127.676 23.9022C127.676 -8.57659 101.252 -35 68.7736 -35C36.2949 -35 9.87146 -8.57659 9.87146 23.9022C9.87146 56.3797 36.2949 82.8043 68.7736 82.8043C101.252 82.8043 127.676 56.3809 127.676 23.9022ZM105.166 16.1848L92.2966 31.5451L93.679 51.5352C93.7882 53.1192 93.0754 54.6481 91.7914 55.5817C90.5061 56.5141 88.8321 56.7205 87.3596 56.1277L68.7736 48.6359L50.1876 56.1277C49.6896 56.3281 47.7059 56.9977 45.7559 55.5817C44.4719 54.6481 43.759 53.1192 43.8682 51.5352L45.2531 31.5451L32.384 16.186C31.364 14.968 31.0424 13.3119 31.5332 11.8023C32.024 10.2926 33.2576 9.14062 34.7984 8.75541L54.2365 3.8929L64.8675 -13.0935C65.71 -14.4387 67.186 -15.2559 68.7736 -15.2559C70.3613 -15.2559 71.8373 -14.4387 72.6797 -13.0935L83.3132 3.8929L102.751 8.75541C104.292 9.14062 105.526 10.2926 106.016 11.8023C106.507 13.3119 106.186 14.968 105.166 16.1848Z"
+                                                                fill="#9568FF"></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="trending-chart">
+                                                <iframe
+                                                    src="https://s.tradingview.com/widgetembed/?hideideas=1&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en#%7B%22symbol%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22frameElementId%22%3A%22tradingview_a086c%22%2C%22interval%22%3A%22D%22%2C%22hide_side_toolbar%22%3A%220%22%2C%22allow_symbol_change%22%3A%221%22%2C%22save_image%22%3A%221%22%2C%22studies%22%3A%22%5B%5D%22%2C%22theme%22%3A%22Dark%22%2C%22style%22%3A%221%22%2C%22timezone%22%3A%22Etc%2FUTC%22%2C%22withdateranges%22%3A%221%22%2C%22show_popup_button%22%3A%221%22%2C%22studies_overrides%22%3A%22%7B%7D%22%2C%22utm_source%22%3A%22cryptozone.dexignzone.com%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22chart%22%2C%22utm_term%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22page-uri%22%3A%22cryptozone.dexignzone.com%2Fcakephp%2Fdemo%2Fcryptozone-admin%2Findex2%22%7D"
+                                                    frameborder="0" class="frame"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <div class="card">
+                                                <div class="card-header px-4 pt-4 pb-0 border-0">
+                                                    <h2 class="text-white heading">Assets Allocation</h2>
+
+                                                </div>
+                                                <div class="card-body text-center px-5 pt-0 pb-3">
+                                                    <div class="custom-donut">
+                                                        <svg height="192" version="1.1" width="326.984"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                            style="overflow: hidden; position: relative; top: -0.171875px;">
+                                                            <desc
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                                                Created with Raphaël 2.2.0</desc>
+                                                            <defs
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                                            </defs>
+                                                            <path fill="none" stroke="#e085e4"
+                                                                d="M163.492,153.33333333333334A57.333333333333336,57.333333333333336,0,0,0,206.987009512113,133.35365120911624"
+                                                                stroke-width="2" opacity="0"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;">
+                                                            </path>
+                                                            <path fill="#e085e4" stroke="#ffffff"
+                                                                d="M163.492,156.33333333333334A60.333333333333336,60.333333333333336,0,0,0,209.26291117263054,135.30820272587232L224.94134483397357,148.77289095241423A81,81,0,0,1,163.492,177Z"
+                                                                stroke-width="3"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                                            </path>
+                                                            <path fill="none" stroke="#2a353a"
+                                                                d="M206.987009512113,133.35365120911624A57.333333333333336,57.333333333333336,0,0,0,178.12923229311593,40.56659362885521"
+                                                                stroke-width="2" opacity="0"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;">
+                                                            </path>
+                                                            <path fill="#2a353a" stroke="#ffffff"
+                                                                d="M209.26291117263054,135.30820272587232A60.333333333333336,60.333333333333336,0,0,0,178.89513398287198,37.66600841176042L184.17134562341377,17.68419913844079A81,81,0,0,1,224.94134483397357,148.77289095241423Z"
+                                                                stroke-width="3"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                                            </path>
+                                                            <path fill="none" stroke="#c0e192"
+                                                                d="M178.12923229311593,40.56659362885521A57.333333333333336,57.333333333333336,0,0,0,107.22608237540234,107.0117039995226"
+                                                                stroke-width="2" opacity="0"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;">
+                                                            </path>
+                                                            <path fill="#c0e192" stroke="#ffffff"
+                                                                d="M178.89513398287198,37.66600841176042A60.333333333333336,60.333333333333336,0,0,0,104.28193552295247,107.58789781345111L84.0000349838533,111.55723297606971A81,81,0,0,1,184.17134562341377,17.68419913844079Z"
+                                                                stroke-width="3"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                                            </path>
+                                                            <path fill="none" stroke="#9568ff"
+                                                                d="M107.22608237540234,107.0117039995226A57.333333333333336,57.333333333333336,0,0,0,163.4739882024157,153.33333050404676"
+                                                                stroke-width="2" opacity="1"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 1;">
+                                                            </path>
+                                                            <path fill="#9568ff" stroke="#ffffff"
+                                                                d="M104.28193552295247,107.58789781345111A60.333333333333336,60.333333333333336,0,0,0,163.4730457246351,156.3333303560027L163.46498230362354,181.99999575607015A86,86,0,0,1,79.0931235631035,112.5175559992839Z"
+                                                                stroke-width="3"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                                            </path><text x="163.492" y="86" text-anchor="middle"
+                                                                font-family="&quot;Arial&quot;" font-size="15px"
+                                                                stroke="none" fill="#fff"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 15px; font-weight: 800;"
+                                                                font-weight="800"
+                                                                transform="matrix(0.5885,0,0,0.5885,67.2846,39.92)"
+                                                                stroke-width="1.6993701550387597">
+                                                                <tspan
+                                                                    style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+                                                                    dy="6">&nbsp; &nbsp; Mail-Order Sales &nbsp; &nbsp;
+                                                                </tspan>
+                                                            </text><text x="163.492" y="106" text-anchor="middle"
+                                                                font-family="&quot;Arial&quot;" font-size="14px"
+                                                                stroke="none" fill="#fff"
+                                                                style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 14px;"
+                                                                transform="matrix(1.1944,0,0,1.1944,-31.8103,-19.0556)"
+                                                                stroke-width="0.8372093023255814">
+                                                                <tspan
+                                                                    style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+                                                                    dy="5">20</tspan>
+                                                            </text>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="chart-items">
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="text-start">
+                                                                    <span
+                                                                        class="text-white font-w600 mb-2 d-block">Legend</span>
+                                                                    <div
+                                                                        class="color-picker d-flex justify-content-between mb-2 text-white">
+                                                                        <span>
+                                                                            <svg class="me-2" width="16" height="16"
+                                                                                viewBox="0 0 14 14" fill="none"
+                                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                                <rect width="14" height="14" rx="4"
+                                                                                    fill="#9568FF"></rect>
+                                                                            </svg>
+                                                                            XTZ(40%)
+                                                                        </span>
+                                                                        <h5>$763</h5>
+                                                                    </div>
+                                                                    <div
+                                                                        class="color-picker d-flex justify-content-between mb-2 text-white">
+                                                                        <span>
+                                                                            <svg class="me-2" width="16" height="16"
+                                                                                viewBox="0 0 14 14" fill="none"
+                                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                                <rect width="14" height="14" rx="4"
+                                                                                    fill="#2A353A"></rect>
+                                                                            </svg>
+                                                                            BTC(20%)
+                                                                        </span>
+                                                                        <h5>$321</h5>
+                                                                    </div>
+                                                                    <div
+                                                                        class="color-picker d-flex justify-content-between mb-2 text-white">
+                                                                        <span>
+                                                                            <svg class="me-2" width="16" height="16"
+                                                                                viewBox="0 0 14 14" fill="none"
+                                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                                <rect width="14" height="14" rx="4"
+                                                                                    fill="#C0E192"></rect>
+                                                                            </svg>
+                                                                            BNB(10%)
+                                                                        </span>
+                                                                        <h5>$69</h5>
+                                                                    </div>
+                                                                    <div
+                                                                        class="color-picker d-flex justify-content-between mb-2 text-white">
+                                                                        <span>
+                                                                            <svg class="me-2" width="16" height="16"
+                                                                                viewBox="0 0 14 14" fill="none"
+                                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                                <rect width="14" height="14" rx="4"
+                                                                                    fill="#E085E4"></rect>
+                                                                            </svg>
+                                                                            ETH(10%)
+                                                                        </span>
+                                                                        <h5>$154</h5>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <div class="card-header border-0 pb-0 pt-4 px-4 text-white">
+                                                    <h2 class="heading">Market Previews</h2>
+                                                </div>
+                                                <div class="card-body pt-0 px-0 pb-3">
+                                                    <div
+                                                        class="previews-info-list d-flex align-items-center justify-content-between">
+                                                        <div class="pre-icon d-flex align-items-center">
+                                                            <span class="icon-box">
+                                                                <svg width="17" height="16" viewBox="0 0 17 16"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M15.5 13.7222H7.72226C7.44585 13.7236 7.17885 13.6219 6.9734 13.437C6.76794 13.2521 6.63878 12.9972 6.61115 12.7222L6.9667 9.05553L10.2445 8.16664C10.5392 8.08707 10.7902 7.8937 10.9423 7.62907C11.0944 7.36443 11.1352 7.05021 11.0556 6.75553C10.976 6.46084 10.7827 6.20983 10.518 6.05772C10.2534 5.90561 9.93916 5.86485 9.64448 5.94442L7.21115 6.6333L7.72226 1.61108C7.75173 1.3164 7.66292 1.02208 7.47539 0.792865C7.28785 0.563654 7.01694 0.418329 6.72226 0.38886C6.42757 0.359392 6.13325 0.448194 5.90404 0.63573C5.67483 0.823266 5.5295 1.09418 5.50004 1.38886L4.91115 7.3333L1.8667 8.16664C1.57202 8.20642 1.30521 8.36164 1.12496 8.59814C0.944719 8.83464 0.865809 9.13306 0.905592 9.42775C0.945374 9.72243 1.10059 9.98925 1.33709 10.1695C1.5736 10.3497 1.87202 10.4286 2.1667 10.3889C2.26605 10.405 2.36736 10.405 2.4667 10.3889L4.68893 9.75553L4.38892 12.6111C4.38892 13.4951 4.74011 14.343 5.36523 14.9681C5.99036 15.5932 6.8382 15.9444 7.72226 15.9444H15.5C15.7947 15.9444 16.0773 15.8274 16.2857 15.619C16.4941 15.4106 16.6111 15.128 16.6111 14.8333C16.6111 14.5386 16.4941 14.256 16.2857 14.0476C16.0773 13.8393 15.7947 13.7222 15.5 13.7222Z"
+                                                                        fill="#FCFCFC"></path>
+                                                                </svg>
+                                                            </span>
+                                                            <div class="ms-2">
+                                                                <h6>LTC/Year</h6>
+                                                                <span>March</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="count">
+                                                            <h6>120.45</h6>
+                                                            <span class="txt-1">1,24%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="previews-info-list d-flex align-items-center justify-content-between">
+                                                        <div class="pre-icon d-flex align-items-center">
+                                                            <span class="icon-box bg-box1">
+                                                                <svg width="17" height="21" viewBox="0 0 17 21"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M13.2472 9.15687C13.6996 8.48871 13.9615 7.70994 14.0047 6.90419C14.0479 6.09844 13.8707 5.29615 13.4924 4.58346C13.114 3.87078 12.5486 3.27462 11.857 2.85901C11.1653 2.4434 10.3735 2.22404 9.56662 2.22448V1.11337C9.56662 0.818684 9.44956 0.536069 9.24119 0.327695C9.03281 0.119321 8.7502 0.0022583 8.45551 0.0022583C8.16083 0.0022583 7.87821 0.119321 7.66984 0.327695C7.46146 0.536069 7.3444 0.818684 7.3444 1.11337V2.22448H5.12218V1.11337C5.12218 0.818684 5.00512 0.536069 4.79674 0.327695C4.58837 0.119321 4.30575 0.0022583 4.01107 0.0022583C3.71638 0.0022583 3.43377 0.119321 3.22539 0.327695C3.01702 0.536069 2.89996 0.818684 2.89996 1.11337V2.22448H1.78885C1.49416 2.22448 1.21154 2.34154 1.00317 2.54992C0.794797 2.75829 0.677734 3.04091 0.677734 3.33559C0.677734 3.63028 0.794797 3.91289 1.00317 4.12127C1.21154 4.32964 1.49416 4.4467 1.78885 4.4467H2.89996V15.5578H1.78885C1.49416 15.5578 1.21154 15.6749 1.00317 15.8833C0.794797 16.0916 0.677734 16.3742 0.677734 16.6689C0.677734 16.9636 0.794797 17.2462 1.00317 17.4546C1.21154 17.663 1.49416 17.78 1.78885 17.78H2.89996V18.8911C2.89996 19.1858 3.01702 19.4684 3.22539 19.6768C3.43377 19.8852 3.71638 20.0023 4.01107 20.0023C4.30575 20.0023 4.58837 19.8852 4.79674 19.6768C5.00512 19.4684 5.12218 19.1858 5.12218 18.8911V17.78H7.3444V18.8911C7.3444 19.1858 7.46146 19.4684 7.66984 19.6768C7.87821 19.8852 8.16083 20.0023 8.45551 20.0023C8.7502 20.0023 9.03281 19.8852 9.24119 19.6768C9.44956 19.4684 9.56662 19.1858 9.56662 18.8911V17.78H11.7888C12.8383 17.7828 13.8548 17.413 14.6572 16.7367C15.4597 16.0603 15.9962 15.1211 16.1712 14.0863C16.3462 13.0515 16.1484 11.9882 15.613 11.0855C15.0776 10.1829 14.2393 9.49948 13.2472 9.15693V9.15687ZM5.12218 4.4467H9.56662C10.156 4.4467 10.7212 4.68083 11.138 5.09758C11.5547 5.51432 11.7888 6.07956 11.7888 6.66893C11.7888 7.2583 11.5547 7.82353 11.138 8.24027C10.7212 8.65702 10.156 8.89115 9.56662 8.89115H5.12218V4.4467ZM11.7888 15.5578H5.12218V11.1134H11.7888C12.3782 11.1134 12.9434 11.3475 13.3602 11.7642C13.7769 12.181 14.0111 12.7462 14.0111 13.3356C14.0111 13.925 13.7769 14.4902 13.3602 14.9069C12.9434 15.3237 12.3782 15.5578 11.7888 15.5578Z"
+                                                                        fill="#FCFCFC"></path>
+                                                                </svg>
+                                                            </span>
+                                                            <div class="ms-2">
+                                                                <h6>BTC/Year</h6>
+                                                                <span>January</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="count">
+                                                            <h6>120.45</h6>
+                                                            <span class="txt-2">1,24%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="previews-info-list d-flex align-items-center justify-content-between">
+                                                        <div class="pre-icon d-flex align-items-center">
+                                                            <span class="icon-box bg-box2">
+                                                                <svg width="16" height="24" viewBox="0 0 16 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M15.1119 12.24C15.1219 12.1603 15.1219 12.0797 15.1119 12C15.1212 11.9233 15.1212 11.8457 15.1119 11.7689C15.1134 11.7393 15.1134 11.7096 15.1119 11.68C15.0979 11.6399 15.08 11.6012 15.0586 11.5645L8.83639 0.897799C8.81109 0.846041 8.77467 0.800512 8.72973 0.764466C8.64641 0.672805 8.54486 0.599569 8.43159 0.549453C8.31831 0.499338 8.19582 0.47345 8.07195 0.47345C7.94808 0.47345 7.82559 0.499338 7.71231 0.549453C7.59904 0.599569 7.49749 0.672805 7.41417 0.764466C7.36923 0.800512 7.33281 0.846041 7.30751 0.897799L1.08528 11.5645C1.06386 11.6012 1.046 11.6399 1.03195 11.68C1.03047 11.7096 1.03047 11.7393 1.03195 11.7689C0.973936 11.8389 0.926059 11.9167 0.889728 12C0.880507 12.0768 0.880507 12.1544 0.889728 12.2311C0.888246 12.2607 0.888246 12.2904 0.889728 12.32C0.90378 12.3602 0.921639 12.3988 0.943061 12.4356L7.16528 23.1022C7.24399 23.2349 7.35585 23.3448 7.48988 23.4211C7.62391 23.4974 7.77549 23.5375 7.92973 23.5375C8.08396 23.5375 8.23554 23.4974 8.36957 23.4211C8.5036 23.3448 8.61547 23.2349 8.69417 23.1022L14.9164 12.4356C14.9378 12.3988 14.9557 12.3602 14.9697 12.32C15.0195 12.2978 15.0671 12.271 15.1119 12.24ZM4.03639 12L7.11195 10.6845V13.3511L4.03639 12ZM7.11195 8.74669L3.90306 10.1245L7.11195 4.62224V8.74669ZM8.88973 10.6845L11.9653 12L8.88973 13.3156V10.6845ZM8.88973 8.74669V4.62224L12.0986 10.1245L8.88973 8.74669ZM8.00084 20.8889L3.90306 13.8578L7.65417 15.4667C7.76384 15.5131 7.88173 15.5371 8.00084 15.5371C8.11994 15.5371 8.23783 15.5131 8.34751 15.4667L12.0986 13.8578L8.00084 20.8889Z"
+                                                                        fill="#FCFCFC"></path>
+                                                                </svg>
+                                                            </span>
+                                                            <div class="ms-2">
+                                                                <h6>LTC/Year</h6>
+                                                                <span>January</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="count">
+                                                            <h6>120.45</h6>
+                                                            <span class="txt-2">-2,24%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="previews-info-list d-flex align-items-center justify-content-between">
+                                                        <div class="pre-icon d-flex align-items-center">
+                                                            <span class="icon-box bg-box3">
+                                                                <svg width="21" height="22" viewBox="0 0 21 22"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M15.8893 12.6666C15.4127 12.6738 14.9402 12.7563 14.4893 12.9111L12.8893 11L14.4893 9.08887C14.9402 9.24363 15.4127 9.32613 15.8893 9.33331C16.9087 9.33828 17.8988 8.99266 18.6937 8.35439C19.4886 7.71613 20.0399 6.82401 20.2552 5.8276C20.4705 4.83118 20.3367 3.79104 19.8763 2.88154C19.4158 1.97203 18.6567 1.24845 17.7262 0.832085C16.7957 0.415724 15.7504 0.331894 14.7654 0.594648C13.7804 0.857402 12.9157 1.45077 12.3163 2.27528C11.7168 3.09978 11.4189 4.10531 11.4727 5.12331C11.5265 6.1413 11.9285 7.10987 12.6115 7.86665L10.9226 9.88887H9.06709C8.79666 8.84147 8.15351 7.92866 7.2582 7.32153C6.36289 6.71441 5.27689 6.45465 4.20376 6.59096C3.13063 6.72726 2.14406 7.25027 1.42896 8.06194C0.713861 8.87362 0.319336 9.91823 0.319336 11C0.319336 12.0817 0.713861 13.1263 1.42896 13.938C2.14406 14.7497 3.13063 15.2727 4.20376 15.409C5.27689 15.5453 6.36289 15.2856 7.2582 14.6784C8.15351 14.0713 8.79666 13.1585 9.06709 12.1111H10.9226L12.6115 14.1333C11.9285 14.8901 11.5265 15.8587 11.4727 16.8767C11.4189 17.8946 11.7168 18.9002 12.3163 19.7247C12.9157 20.5492 13.7804 21.1426 14.7654 21.4053C15.7504 21.6681 16.7957 21.5842 17.7262 21.1679C18.6567 20.7515 19.4158 20.0279 19.8763 19.1184C20.3367 18.2089 20.4705 17.1688 20.2552 16.1724C20.0399 15.1759 19.4886 14.2838 18.6937 13.6456C17.8988 13.0073 16.9087 12.6617 15.8893 12.6666ZM4.77821 13.2222C4.33869 13.2222 3.90905 13.0919 3.54361 12.8477C3.17816 12.6035 2.89334 12.2564 2.72514 11.8504C2.55695 11.4443 2.51294 10.9975 2.59868 10.5664C2.68443 10.1354 2.89607 9.73942 3.20686 9.42863C3.51764 9.11785 3.9136 8.9062 4.34467 8.82046C4.77574 8.73471 5.22256 8.77872 5.62861 8.94691C6.03467 9.11511 6.38174 9.39994 6.62592 9.76538C6.8701 10.1308 7.00043 10.5605 7.00043 11C7.00043 11.5893 6.7663 12.1546 6.34955 12.5713C5.93281 12.9881 5.36758 13.2222 4.77821 13.2222ZM15.8893 2.66665C16.3288 2.66665 16.7585 2.79698 17.1239 3.04116C17.4894 3.28534 17.7742 3.6324 17.9424 4.03846C18.1106 4.44452 18.1546 4.89133 18.0688 5.3224C17.9831 5.75347 17.7714 6.14943 17.4607 6.46022C17.1499 6.771 16.7539 6.98265 16.3229 7.06839C15.8918 7.15414 15.445 7.11013 15.0389 6.94193C14.6329 6.77374 14.2858 6.48891 14.0416 6.12347C13.7974 5.75803 13.6671 5.32838 13.6671 4.88887C13.6671 4.2995 13.9012 3.73427 14.318 3.31752C14.7347 2.90077 15.2999 2.66665 15.8893 2.66665ZM15.8893 19.3333C15.4498 19.3333 15.0202 19.203 14.6547 18.9588C14.2893 18.7146 14.0044 18.3676 13.8363 17.9615C13.6681 17.5554 13.624 17.1086 13.7098 16.6776C13.7955 16.2465 14.0072 15.8505 14.318 15.5397C14.6288 15.229 15.0247 15.0173 15.4558 14.9316C15.8869 14.8458 16.3337 14.8898 16.7397 15.058C17.1458 15.2262 17.4928 15.511 17.737 15.8765C17.9812 16.2419 18.1115 16.6716 18.1115 17.1111C18.1115 17.7005 17.8774 18.2657 17.4607 18.6824C17.0439 19.0992 16.4787 19.3333 15.8893 19.3333Z"
+                                                                        fill="#FCFCFC"></path>
+                                                                </svg>
+                                                            </span>
+                                                            <div class="ms-2">
+                                                                <h6>LTC/Year</h6>
+                                                                <span>January</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="count">
+                                                            <h6>120.45</h6>
+                                                            <span class="txt-2">-2,24%</span>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="previews-info-list d-flex align-items-center justify-content-between">
+                                                        <div class="pre-icon d-flex align-items-center">
+                                                            <span class="icon-box bg-box2">
+                                                                <svg width="16" height="24" viewBox="0 0 16 24"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M15.1119 12.24C15.1219 12.1603 15.1219 12.0797 15.1119 12C15.1212 11.9233 15.1212 11.8457 15.1119 11.7689C15.1134 11.7393 15.1134 11.7096 15.1119 11.68C15.0979 11.6399 15.08 11.6012 15.0586 11.5645L8.83639 0.897799C8.81109 0.846041 8.77467 0.800512 8.72973 0.764466C8.64641 0.672805 8.54486 0.599569 8.43159 0.549453C8.31831 0.499338 8.19582 0.47345 8.07195 0.47345C7.94808 0.47345 7.82559 0.499338 7.71231 0.549453C7.59904 0.599569 7.49749 0.672805 7.41417 0.764466C7.36923 0.800512 7.33281 0.846041 7.30751 0.897799L1.08528 11.5645C1.06386 11.6012 1.046 11.6399 1.03195 11.68C1.03047 11.7096 1.03047 11.7393 1.03195 11.7689C0.973936 11.8389 0.926059 11.9167 0.889728 12C0.880507 12.0768 0.880507 12.1544 0.889728 12.2311C0.888246 12.2607 0.888246 12.2904 0.889728 12.32C0.90378 12.3602 0.921639 12.3988 0.943061 12.4356L7.16528 23.1022C7.24399 23.2349 7.35585 23.3448 7.48988 23.4211C7.62391 23.4974 7.77549 23.5375 7.92973 23.5375C8.08396 23.5375 8.23554 23.4974 8.36957 23.4211C8.5036 23.3448 8.61547 23.2349 8.69417 23.1022L14.9164 12.4356C14.9378 12.3988 14.9557 12.3602 14.9697 12.32C15.0195 12.2978 15.0671 12.271 15.1119 12.24ZM4.03639 12L7.11195 10.6845V13.3511L4.03639 12ZM7.11195 8.74669L3.90306 10.1245L7.11195 4.62224V8.74669ZM8.88973 10.6845L11.9653 12L8.88973 13.3156V10.6845ZM8.88973 8.74669V4.62224L12.0986 10.1245L8.88973 8.74669ZM8.00084 20.8889L3.90306 13.8578L7.65417 15.4667C7.76384 15.5131 7.88173 15.5371 8.00084 15.5371C8.11994 15.5371 8.23783 15.5131 8.34751 15.4667L12.0986 13.8578L8.00084 20.8889Z"
+                                                                        fill="#FCFCFC"></path>
+                                                                </svg>
+                                                            </span>
+                                                            <div class="ms-2">
+                                                                <h6>LTC/Year</h6>
+                                                                <span>January</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="count">
+                                                            <h6>120.45</h6>
+                                                            <span class="txt-2">-2,24%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card email-sub">
+                                                <div class="card-body text-center p-5">
+                                                    <div>
+                                                        <img src="/assets/images/metaverse.png" alt=""
+                                                            class="img-fluid">
+                                                    </div>
+                                                    <div class="total-mail">
+                                                        <h3>7,642</h3>
+                                                        <h5>Total emails Subcriber</h5>
+                                                    </div>
+                                                    <a href="#" class="btn email-btn">Buy Coin</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 right-side">
+                            <div class="row">
+                                <div class="col-lg-12 col-sm-6">
+                                    <div class="">
+                                        <div class="card">
+                                            <div class="card-body pt-2 pb-4">
+                                                <!-- Tabs -->
+                                                <ul class="nav nav-tabs" id="tabs">
+                                                    <li class="nav-item"><a class="nav-link active" href="#Repository"
+                                                            data-bs-toggle="tab">BUY</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#User"
+                                                            data-bs-toggle="tab">SELL</a></li>
+                                                </ul>
+                                                <!-- Tabs -->
+
+                                                <!-- Tab Content -->
+                                                <div class="tab-content">
+                                                    <!-- Buy -->
+                                                    <div class="tab-pane fade show active" id="Repository">
+
+                                                        <!-- Buy Tabs -->
+                                                        <ul class="nav nav-tabs" id="repoTabs">
+                                                            <li class="nav-item"><a class="nav-link active fs-13"
+                                                                    href="#repoInfo" data-bs-toggle="tab">MARKET
+                                                                    ORDER</a></li>
+                                                            <li class="nav-item"><a class="nav-link fs-13"
+                                                                    href="#repoStats" data-bs-toggle="tab">LIMIT
+                                                                    ORDER</a></li>
+                                                        </ul>
+                                                        <!-- Buy Tabs -->
+
+                                                        <div class="tab-content px-5 pt-3">
+                                                            <div class="tab-pane fade show active text-white"
+                                                                id="repoInfo">
+                                                                <div class="sell-element">
+                                                                    <form action="#">
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Price</label>
+                                                                            <div class="form-label d-flex balance">
+                                                                                <span>BALANCE:</span>
+                                                                                <p>$3,123.9</p>
+                                                                            </div>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="0.00">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Amount</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Amount">
+                                                                                <span
+                                                                                    class="input-group-text text-p">BTC</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Total</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Total">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-wrapper">
+                                                                            <div class="range">
+                                                                                <input type="range" min="1" max="100"
+                                                                                    value="1">
+                                                                            </div>
+
+                                                                            <ul class="range-labels">
+                                                                                <li class="active selected">1</li>
+                                                                                <li>25</li>
+                                                                                <li>50</li>
+                                                                                <li>75</li>
+                                                                                <li>100</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="text-center">
+                                                                            <a href="#" class="btn w-75">BUY BTC</a>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane fade text-white" id="repoStats">
+                                                                <div class="sell-element">
+                                                                    <form action="#">
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Price</label>
+                                                                            <div class="form-label d-flex balance">
+                                                                                <span>BALANCE:</span>
+                                                                                <p>$3,123.9</p>
+                                                                            </div>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="0.00">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Amount</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Amount">
+                                                                                <span
+                                                                                    class="input-group-text text-p">BTC</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Total</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Total">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-wrapper">
+                                                                            <div class="range">
+                                                                                <input type="range" min="1" max="100"
+                                                                                    value="1">
+                                                                            </div>
+
+                                                                            <ul class="range-labels">
+                                                                                <li class="active selected">1</li>
+                                                                                <li>25</li>
+                                                                                <li>50</li>
+                                                                                <li>75</li>
+                                                                                <li>100</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="text-center">
+                                                                            <a href="#" class="btn w-75">BUY BTC</a>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Sell -->
+                                                    <div class="tab-pane fade" id="User">
+                                                        <!-- Sell Tabs -->
+                                                        <ul class="nav nav-tabs" id="sellTabs">
+                                                            <li class="nav-item"><a class="nav-link active fs-13"
+                                                                    href="#sellInfo" data-bs-toggle="tab">MARKET
+                                                                    ORDER</a></li>
+                                                            <li class="nav-item"><a class="nav-link fs-13"
+                                                                    href="#sellStats" data-bs-toggle="tab">LIMIT
+                                                                    ORDER</a></li>
+                                                        </ul>
+                                                        <!-- Sell Tabs -->
+
+                                                        <div class="tab-content px-5 pt-3">
+                                                            <div class="tab-pane fade show active text-white"
+                                                                id="sellInfo">
+                                                                <div class="sell-element">
+                                                                    <form action="#">
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Price</label>
+                                                                            <div class="form-label d-flex balance">
+                                                                                <span>BALANCE:</span>
+                                                                                <p>$3,123.9</p>
+                                                                            </div>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="0.00">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Amount</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Amount">
+                                                                                <span
+                                                                                    class="input-group-text text-p">BTC</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Total</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Total">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-wrapper">
+                                                                            <div class="range">
+                                                                                <input type="range" min="1" max="100"
+                                                                                    value="1">
+                                                                            </div>
+
+                                                                            <ul class="range-labels">
+                                                                                <li class="active selected">1</li>
+                                                                                <li>25</li>
+                                                                                <li>50</li>
+                                                                                <li>75</li>
+                                                                                <li>100</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="text-center">
+                                                                            <a href="#" class="btn w-75">SELL BTC</a>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane fade text-white" id="sellStats">
+                                                                <div class="sell-element">
+                                                                    <form action="#">
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Price</label>
+                                                                            <div class="form-label d-flex balance">
+                                                                                <span>BALANCE:</span>
+                                                                                <p>$3,123.9</p>
+                                                                            </div>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="0.00">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Amount</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Amount">
+                                                                                <span
+                                                                                    class="input-group-text text-p">BTC</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="sell-balance">
+                                                                            <label
+                                                                                class="text-p form-label">Total</label>
+                                                                            <div class="input-group d-flex">
+                                                                                <input type="text" class="form-control"
+                                                                                    placeholder="Total">
+                                                                                <span
+                                                                                    class="input-group-text text-p">USDT</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-wrapper">
+                                                                            <div class="range">
+                                                                                <input type="range" min="1" max="100"
+                                                                                    value="1">
+                                                                            </div>
+
+                                                                            <ul class="range-labels">
+                                                                                <li class="active selected">1</li>
+                                                                                <li>25</li>
+                                                                                <li>50</li>
+                                                                                <li>75</li>
+                                                                                <li>100</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="text-center">
+                                                                            <a href="#" class="btn w-75">SELL BTC</a>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-12 col-sm-6">
+                                    <div class="card card-table">
+                                        <div class="card-header py-3 px-4 border-clr">
+                                            <h2 class="heading text-white">Order Book <span
+                                                    class="text-p sm">(BTC/USDT)</span></h2>
+                                        </div>
+                                        <div class="card-body pt-0 pb-3 px-2">
+                                            <!-- Tabs -->
+                                            <ul class="nav nav-tabs" id="tabs">
+                                                <li class="nav-item"><a class="nav-link active" href="#openOrders"
+                                                        data-bs-toggle="tab">Open Orders</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#orderHistory"
+                                                        data-bs-toggle="tab">Order History</a></li>
+                                            </ul>
+                                            <!-- Tabs -->
+
+                                            <!-- Tab Content -->
+                                            <div class="tab-content">
+                                                <!-- Open Orders -->
+                                                <div class="tab-pane fade show active" id="openOrders">
+                                                    <div class="list-row-head d-flex text-p">
+                                                        <span>Price</span>
+                                                        <span>Size</span>
+                                                        <span class="text-end">Total</span>
+                                                    </div>
+                                                    <div class="list-table">
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-bottom-info">
+                                                        <h6 class="text-white mb-0">19858.19 <i
+                                                                class="fa-solid fa-caret-up"></i></h6>
+
+                                                    </div>
+                                                    <div class="list-table">
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Order History -->
+                                                <div class="tab-pane fade" id="orderHistory">
+                                                    <div class="list-row-head d-flex text-p">
+                                                        <span>Price</span>
+                                                        <span>Size</span>
+                                                        <span class="text-end">Total</span>
+                                                    </div>
+                                                    <div class="list-table">
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-bottom-info">
+                                                        <h6 class="text-white mb-0">19858.19 <i
+                                                                class="fa-solid fa-caret-up"></i></h6>
+
+                                                    </div>
+                                                    <div class="list-table">
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                        <div class="list-row">
+                                                            <span>19852.63</span>
+                                                            <span>0.050300</span>
+                                                            <span class="text-end">2.362877</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Tab Content -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-6">
+                                    <div class="card">
+                                        <div class="card-header p-3 px-4 pb-0">
+                                            <h2 class="heading text-white">Server Status</h2>
+                                        </div>
+                                        <div class="card-body position-relative pt-0">
+                                            <div class="chart-bar text-center">
+                                                <svg id="SvgjsSvg2312" width="431" height="170"
+                                                    xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg"
+                                                    xmlns:data="ApexChartsNS" transform="translate(0, 0)"
+                                                    style="background: transparent;">
+                                                    <g id="SvgjsG2314" class="apexcharts-inner apexcharts-graphical"
+                                                        transform="translate(22, 30)">
+                                                        <defs id="SvgjsDefs2313">
+                                                            <clipPath id="gridRectMask62fob1bf">
+                                                                <rect id="SvgjsRect2317" width="423" height="145"
+                                                                    x="-12" y="-10" rx="0" ry="0" opacity="1"
+                                                                    stroke-width="0" stroke="none" stroke-dasharray="0"
+                                                                    fill="#fff"></rect>
+                                                            </clipPath>
+                                                            <clipPath id="gridRectMarkerMask62fob1bf">
+                                                                <rect id="SvgjsRect2318" width="403" height="129" x="-2"
+                                                                    y="-2" rx="0" ry="0" opacity="1" stroke-width="0"
+                                                                    stroke="none" stroke-dasharray="0" fill="#fff">
+                                                                </rect>
+                                                            </clipPath>
+                                                        </defs>
+                                                        <g id="SvgjsG2354" class="apexcharts-xaxis"
+                                                            transform="translate(0, 0)">
+                                                            <g id="SvgjsG2355" class="apexcharts-xaxis-texts-g"
+                                                                transform="translate(0, -4)"></g>
+                                                        </g>
+                                                        <g id="SvgjsG2363" class="apexcharts-grid">
+                                                            <g id="SvgjsG2364" class="apexcharts-gridlines-horizontal"
+                                                                style="display: none;"></g>
+                                                            <g id="SvgjsG2365" class="apexcharts-gridlines-vertical"
+                                                                style="display: none;"></g>
+                                                            <line id="SvgjsLine2367" x1="0" y1="125" x2="399" y2="125"
+                                                                stroke="transparent" stroke-dasharray="0"></line>
+                                                            <line id="SvgjsLine2366" x1="0" y1="1" x2="0" y2="125"
+                                                                stroke="transparent" stroke-dasharray="0"></line>
+                                                        </g>
+                                                        <g id="SvgjsG2319"
+                                                            class="apexcharts-bar-series apexcharts-plot-series">
+                                                            <g id="SvgjsG2320" class="apexcharts-series" rel="1"
+                                                                seriesName="Running" data:realIndex="0">
+                                                                <path id="SvgjsPath2322"
+                                                                    d="M 0 125L 0 13Q 0 5 8 5L 38.5 5Q 46.5 5 46.5 13L 46.5 13L 46.5 125L 46.5 125z"
+                                                                    fill="#9568FF" fill-opacity="1" stroke="transparent"
+                                                                    stroke-opacity="1" stroke-linecap="round"
+                                                                    stroke-width="20" stroke-dasharray="0"
+                                                                    class="apexcharts-bar-area" index="0"
+                                                                    clip-path="url(#gridRectMask62fob1bf)"
+                                                                    pathTo="M 0 125L 0 13Q 0 5 8 5L 38.5 5Q 46.5 5 46.5 13L 46.5 13L 46.5 125L 46.5 125z"
+                                                                    pathFrom="M 0 125L 0 125L 46.5 125L 46.5 125L 46.5 125L 46.5 125L 46.5 125L 0 125"
+                                                                    cy="5" cx="123" j="0" val="96" barHeight="120"
+                                                                    barWidth="66.5"></path>
+                                                                <path id="SvgjsPath2327"
+                                                                    d="M 133 125L 133 58Q 133 50 141 50L 171.5 50Q 179.5 50 179.5 58L 179.5 58L 179.5 125L 179.5 125z"
+                                                                    fill="#9568FF" fill-opacity="1" stroke="transparent"
+                                                                    stroke-opacity="1" stroke-linecap="round"
+                                                                    stroke-width="20" stroke-dasharray="0"
+                                                                    class="apexcharts-bar-area" index="0"
+                                                                    clip-path="url(#gridRectMask62fob1bf)"
+                                                                    pathTo="M 133 125L 133 58Q 133 50 141 50L 171.5 50Q 179.5 50 179.5 58L 179.5 58L 179.5 125L 179.5 125z"
+                                                                    pathFrom="M 133 125L 133 125L 179.5 125L 179.5 125L 179.5 125L 179.5 125L 179.5 125L 133 125"
+                                                                    cy="50" cx="256" j="1" val="60" barHeight="75"
+                                                                    barWidth="66.5"></path>
+                                                                <path id="SvgjsPath2332"
+                                                                    d="M 266 125L 266 20.5Q 266 12.5 274 12.5L 304.5 12.5Q 312.5 12.5 312.5 20.5L 312.5 20.5L 312.5 125L 312.5 125z"
+                                                                    fill="#9568FF" fill-opacity="1" stroke="transparent"
+                                                                    stroke-opacity="1" stroke-linecap="round"
+                                                                    stroke-width="20" stroke-dasharray="0"
+                                                                    class="apexcharts-bar-area" index="0"
+                                                                    clip-path="url(#gridRectMask62fob1bf)"
+                                                                    pathTo="M 266 125L 266 20.5Q 266 12.5 274 12.5L 304.5 12.5Q 312.5 12.5 312.5 20.5L 312.5 20.5L 312.5 125L 312.5 125z"
+                                                                    pathFrom="M 266 125L 266 125L 312.5 125L 312.5 125L 312.5 125L 312.5 125L 312.5 125L 266 125"
+                                                                    cy="12.5" cx="389" j="2" val="90" barHeight="112.5"
+                                                                    barWidth="66.5"></path>
+                                                            </g>
+                                                            <g id="SvgjsG2337" class="apexcharts-series" rel="2"
+                                                                seriesName="Cycling" data:realIndex="1">
+                                                                <path id="SvgjsPath2339"
+                                                                    d="M 66.5 125L 66.5 33Q 66.5 25 74.5 25L 105 25Q 113 25 113 33L 113 33L 113 125L 113 125z"
+                                                                    fill="#362465" fill-opacity="1" stroke="transparent"
+                                                                    stroke-opacity="1" stroke-linecap="round"
+                                                                    stroke-width="20" stroke-dasharray="0"
+                                                                    class="apexcharts-bar-area" index="1"
+                                                                    clip-path="url(#gridRectMask62fob1bf)"
+                                                                    pathTo="M 66.5 125L 66.5 33Q 66.5 25 74.5 25L 105 25Q 113 25 113 33L 113 33L 113 125L 113 125z"
+                                                                    pathFrom="M 66.5 125L 66.5 125L 113 125L 113 125L 113 125L 113 125L 113 125L 66.5 125"
+                                                                    cy="25" cx="189.5" j="0" val="80" barHeight="100"
+                                                                    barWidth="66.5"></path>
+                                                                <path id="SvgjsPath2344"
+                                                                    d="M 199.5 125L 199.5 83Q 199.5 75 207.5 75L 238 75Q 246 75 246 83L 246 83L 246 125L 246 125z"
+                                                                    fill="#362465" fill-opacity="1" stroke="transparent"
+                                                                    stroke-opacity="1" stroke-linecap="round"
+                                                                    stroke-width="20" stroke-dasharray="0"
+                                                                    class="apexcharts-bar-area" index="1"
+                                                                    clip-path="url(#gridRectMask62fob1bf)"
+                                                                    pathTo="M 199.5 125L 199.5 83Q 199.5 75 207.5 75L 238 75Q 246 75 246 83L 246 83L 246 125L 246 125z"
+                                                                    pathFrom="M 199.5 125L 199.5 125L 246 125L 246 125L 246 125L 246 125L 246 125L 199.5 125"
+                                                                    cy="75" cx="322.5" j="1" val="40" barHeight="50"
+                                                                    barWidth="66.5"></path>
+                                                                <path id="SvgjsPath2349"
+                                                                    d="M 332.5 125L 332.5 64.25Q 332.5 56.25 340.5 56.25L 371 56.25Q 379 56.25 379 64.25L 379 64.25L 379 125L 379 125z"
+                                                                    fill="#362465" fill-opacity="1" stroke="transparent"
+                                                                    stroke-opacity="1" stroke-linecap="round"
+                                                                    stroke-width="20" stroke-dasharray="0"
+                                                                    class="apexcharts-bar-area" index="1"
+                                                                    clip-path="url(#gridRectMask62fob1bf)"
+                                                                    pathTo="M 332.5 125L 332.5 64.25Q 332.5 56.25 340.5 56.25L 371 56.25Q 379 56.25 379 64.25L 379 64.25L 379 125L 379 125z"
+                                                                    pathFrom="M 332.5 125L 332.5 125L 379 125L 379 125L 379 125L 379 125L 379 125L 332.5 125"
+                                                                    cy="56.25" cx="455.5" j="2" val="55"
+                                                                    barHeight="68.75" barWidth="66.5"></path>
+                                                            </g>
+                                                            <g id="SvgjsG2321" class="apexcharts-datalabels"
+                                                                data:realIndex="0">
+                                                                <g id="SvgjsG2324" class="apexcharts-data-labels"
+                                                                    transform="rotate(0)"><text id="SvgjsText2326"
+                                                                        font-family="Helvetica, Arial, sans-serif"
+                                                                        x="23.25" y="103" text-anchor="middle"
+                                                                        dominant-baseline="auto" font-size="14px"
+                                                                        font-weight="600" fill="#ffffff"
+                                                                        class="apexcharts-datalabel" cx="23.25" cy="103"
+                                                                        style="font-family: Helvetica, Arial, sans-serif;">96</text>
+                                                                </g>
+                                                                <g id="SvgjsG2329" class="apexcharts-data-labels"
+                                                                    transform="rotate(0)"><text id="SvgjsText2331"
+                                                                        font-family="Helvetica, Arial, sans-serif"
+                                                                        x="156.25" y="105" text-anchor="middle"
+                                                                        dominant-baseline="auto" font-size="14px"
+                                                                        font-weight="600" fill="#ffffff"
+                                                                        class="apexcharts-datalabel" cx="156.25"
+                                                                        cy="105"
+                                                                        style="font-family: Helvetica, Arial, sans-serif;">60</text>
+                                                                </g>
+                                                                <g id="SvgjsG2334" class="apexcharts-data-labels"
+                                                                    transform="rotate(0)"><text id="SvgjsText2336"
+                                                                        font-family="Helvetica, Arial, sans-serif"
+                                                                        x="289.25" y="106.75" text-anchor="middle"
+                                                                        dominant-baseline="auto" font-size="14px"
+                                                                        font-weight="600" fill="#ffffff"
+                                                                        class="apexcharts-datalabel" cx="289.25"
+                                                                        cy="106.75"
+                                                                        style="font-family: Helvetica, Arial, sans-serif;">90</text>
+                                                                </g>
+                                                            </g>
+                                                            <g id="SvgjsG2338" class="apexcharts-datalabels"
+                                                                data:realIndex="1">
+                                                                <g id="SvgjsG2341" class="apexcharts-data-labels"
+                                                                    transform="rotate(0)"><text id="SvgjsText2343"
+                                                                        font-family="Helvetica, Arial, sans-serif"
+                                                                        x="89.75" y="113" text-anchor="middle"
+                                                                        dominant-baseline="auto" font-size="14px"
+                                                                        font-weight="600" fill="#ffffff"
+                                                                        class="apexcharts-datalabel" cx="89.75" cy="113"
+                                                                        style="font-family: Helvetica, Arial, sans-serif;">80</text>
+                                                                </g>
+                                                                <g id="SvgjsG2346" class="apexcharts-data-labels"
+                                                                    transform="rotate(0)"><text id="SvgjsText2348"
+                                                                        font-family="Helvetica, Arial, sans-serif"
+                                                                        x="222.75" y="105" text-anchor="middle"
+                                                                        dominant-baseline="auto" font-size="14px"
+                                                                        font-weight="600" fill="#ffffff"
+                                                                        class="apexcharts-datalabel" cx="222.75"
+                                                                        cy="105"
+                                                                        style="font-family: Helvetica, Arial, sans-serif;">40</text>
+                                                                </g>
+                                                                <g id="SvgjsG2351" class="apexcharts-data-labels"
+                                                                    transform="rotate(0)"><text id="SvgjsText2353"
+                                                                        font-family="Helvetica, Arial, sans-serif"
+                                                                        x="355.75" y="105" text-anchor="middle"
+                                                                        dominant-baseline="auto" font-size="14px"
+                                                                        font-weight="600" fill="#ffffff"
+                                                                        class="apexcharts-datalabel" cx="355.75"
+                                                                        cy="105"
+                                                                        style="font-family: Helvetica, Arial, sans-serif;">55</text>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                        <line id="SvgjsLine2368" x1="0" y1="0" x2="399" y2="0" stroke=""
+                                                            stroke-dasharray="0" stroke-width="1"
+                                                            class="apexcharts-ycrosshairs"></line>
+                                                        <line id="SvgjsLine2369" x1="0" y1="0" x2="399" y2="0"
+                                                            stroke-dasharray="0" stroke-width="0"
+                                                            class="apexcharts-ycrosshairs-hidden"></line>
+                                                        <g id="SvgjsG2370" class="apexcharts-yaxis-annotations"></g>
+                                                        <g id="SvgjsG2371" class="apexcharts-xaxis-annotations"></g>
+                                                        <g id="SvgjsG2372" class="apexcharts-point-annotations"></g>
+                                                    </g>
+                                                    <g id="SvgjsG2361" class="apexcharts-yaxis" rel="0"
+                                                        transform="translate(-24, 0)">
+                                                        <g id="SvgjsG2362" class="apexcharts-yaxis-texts-g"></g>
+                                                    </g>
+                                                    <g id="SvgjsG2315" class="apexcharts-annotations"></g>
+                                                </svg>
+                                            </div>
+                                            <div class="d-flex server-status mx-5">
+                                                <div>
+                                                    <span>Country</span>
+                                                    <h4 class="text-white mb-0">Indonesia</h4>
+                                                </div>
+                                                <div>
+                                                    <span>Domain</span>
+                                                    <h4 class="text-white mb-0">Website.com</h4>
+                                                </div>
+                                                <div>
+                                                    <span><i class="fa-solid fa-caret-up scale-2"></i></span>
+                                                    <h4 class="text-white mb-0">Indonesia</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Footer -->
+                        <div class="col-lg-12">
+                            <div class="footer">
+                                <p class="text-white mb-0">Copyright © Developed by <a href="#">DexignZone</a> 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content ends -->
+        </div>
+    </div>
+    <!--  -->
+    <!-- js files -->
+    <script src="/assets/js/input.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/fontawesome.all.min.js"></script>
+</body>
+
+</html>
