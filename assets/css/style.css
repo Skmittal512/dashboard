@@ -775,6 +775,7 @@ a.sidebar-link:hover {
     top: 2px;
     height: 0;
     -webkit-appearance: none;
+    appearance: none; 
 }
 
 .range input::-webkit-slider-thumb {
