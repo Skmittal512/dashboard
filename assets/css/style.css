@@ -7,7 +7,7 @@
 
 /* Customizing scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 4px;
     background-color: #15073A;
 }
 
@@ -517,7 +517,7 @@ a.sidebar-link:hover {
 }
 
 .card-widget .chart img {
-    transform: translateY(18px);
+    transform: translateY(24px);
 }
 
 .card .trending-chart {
@@ -974,11 +974,15 @@ a.sidebar-link:hover {
 .dropdown ul {
     list-style-type: none;
     display: block;
-    margin: 0;
+    margin-top: 15px;
     padding: 0;
+    right: 0;
     position: absolute;
     width: 100%;
-    box-shadow: 0 6px 5px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 30px rgba(118, 96, 168, 0.15);
+    background-color: #25164F;
+    text-align: left;
+    border-radius: 12px;
     overflow: hidden;
 }
 
@@ -994,43 +998,30 @@ a.sidebar-link:hover {
     transition-delay: 300ms;
 }
 
-.dropdown li:first-child a {
-    border-radius: 2px 2px 0 0;
-}
-
-.dropdown li:last-child a {
-    border-radius: 0 0 2px 2px;
-}
-
-
-
-.dropdown>a:hover::after,
-.dropdown.toggle>label:hover::after,
-.dropdown.toggle>input:checked~label::after {
-    border-top-color: #AAA;
-}
-
-.dropdown li:first-child a:hover::before {
-    border-bottom-color: #EEE;
-}
-
 .dropdown.hover:hover li,
 .dropdown.toggle>input:checked~ul li {
     height: 40px;
 }
 
-.dropdown.hover:hover li:first-child,
-.dropdown.toggle>input:checked~ul li:first-child {
-    padding-top: 15px;
+.dropdown.hover:hover li,
+.dropdown.toggle>input:checked~ul li {
+    margin-top: 9px;
+    padding-top: 5px;
+    padding-left: 60px;
 }
+
 .dropdown.toggle.text-end {
     transform: translateX(65%);
 }
 
-.dropdown img{
+.dropdown img {
     width: 45px;
     border: 3px solid #9568FF;
     border-radius: 0.938rem;
+}
+.dropdown svg.svg-inline--fa.fa-xs {
+    transform: translateY(3px);
+    padding-right: 7px;
 }
 
 /*  */
